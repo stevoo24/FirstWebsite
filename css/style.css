@@ -59,36 +59,52 @@
     grid-auto-rows: 100px;
     width: 100%;
     justify-content: center;
-    margin-bottom: 0px;
-    padding-bottom: 150px;
-    font-size: 40px;
+    text-align: center;
+    margin : 0px;
+    padding-top: 135px;
+    padding-bottom: 50px;
+    font-size: 50px;
     line-height: 2px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
 
   .pj {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 200px;
+    grid-template-rows: 250px;
     grid-auto-rows: 100px;
     width: 100%; 
-    margin-top: 0px;
-    margin-bottom: -10px;
-    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    border: 2px solid red;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    text-overflow: clip clip;
+    /* white-space: initial;  */
   }
 
   .imgtext {
-      width: 20%;
-      height: 40%;
-    
+      width: 25%;
+      height: 30%;
+      border-radius: 10%;
   }
+
+  .imgtext:hover {
+    transform: scale(1.1);
+}   
 
   .textimg{
       text-align: justify;
-      width: 70%;
-      font-size: 18px;
-      font-family: 'BlinkMacSystemFont', 'Roboto', Oxygen, 'Ubuntu', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
+      width: 60%;
+      font-size: 15px;
+      font-family: 'BlinkMacSystemFont', 'Roboto', Oxygen, 'Ubuntu', Cantarell, 'Open Sans', 
+      'Helvetica Neue', sans-serif;
+        /* white-space: nowrap; */
+        /* overflow: hidden; */
+        text-overflow: clip clip;
+        /* white-space: initial;  */
+    }
 
 
 .pj {
@@ -137,7 +153,7 @@ textarea, input {
 
 .footer .copywrite {
     color: #8f9296;
-    font-size: 0.875rem;
+    font-size:13px;
     margin: 1rem 0 1rem 0;
     padding: 5%;
 }
@@ -176,23 +192,29 @@ textarea, input {
     .portfolio {
         width: 80vw;
         height: auto;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .pj {
         width: 80vw;
         height: auto;
         font-size: 30px;
+        /* border-radius: 10%; */
     }
 
     .imgtext {
-        width: 80vw;
+        width: 60vw;
         height: 20vh;
         margin: auto;
         font-size: 10px;
         flex-direction: column;
         justify-content: space-between;
+        border-top-left-radius: 10%;
     }
+
+    .imgtext:hover {
+        transform: scale(1.1);
+    }   
 
    
     .textimg {
@@ -202,6 +224,9 @@ textarea, input {
         font-size:13px;
         flex-direction: column;
         justify-content: space-between;
+        text-overflow: clip;
+        white-space: initial;
+        
     }
 
     .footer {
@@ -258,10 +283,16 @@ textarea, input {
     }
 
     .imgtext {
-        width: 80vw;
+        width: 60vw;
         height: 20vh;
         font-size: 10px;
+        border-top-left-radius: 10%;
+        float: left;
     }
+
+    .imgtext:hover {
+        transform: scale(1.1);
+    }         
 
    
     .textimg {
@@ -270,6 +301,9 @@ textarea, input {
         font-size:13px;
         flex-direction: column;
         justify-content: space-between;
+        text-overflow: clip;
+        white-space: initial;
+        float: right;
     }
 
     .footer {
