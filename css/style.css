@@ -65,7 +65,7 @@
     padding-bottom: 50px;
     font-size: 50px;
     line-height: 2px;
-    border: 2px solid red;
+    background-color: rgb(165, 160, 160);
   }
 
   .pj {
@@ -75,13 +75,6 @@
     grid-auto-rows: 100px;
     width: 100%; 
     padding-bottom: 20px;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
-    border: 2px solid red;
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    text-overflow: clip clip;
-    /* white-space: initial;  */
   }
 
   .imgtext {
@@ -100,10 +93,6 @@
       font-size: 15px;
       font-family: 'BlinkMacSystemFont', 'Roboto', Oxygen, 'Ubuntu', Cantarell, 'Open Sans', 
       'Helvetica Neue', sans-serif;
-        /* white-space: nowrap; */
-        /* overflow: hidden; */
-        text-overflow: clip clip;
-        /* white-space: initial;  */
     }
 
 
@@ -192,18 +181,17 @@ textarea, input {
     .portfolio {
         width: 80vw;
         height: auto;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .pj {
         width: 80vw;
         height: auto;
         font-size: 30px;
-        /* border-radius: 10%; */
     }
 
     .imgtext {
-        width: 60vw;
+        width: 25vw;
         height: 20vh;
         margin: auto;
         font-size: 10px;
@@ -218,7 +206,7 @@ textarea, input {
 
    
     .textimg {
-        width: 80vw;
+        width: 66vw;
         height: auto;
         margin-bottom: 0px;
         font-size:13px;
@@ -226,7 +214,7 @@ textarea, input {
         justify-content: space-between;
         text-overflow: clip;
         white-space: initial;
-        
+        padding: 0 3vw; 
     }
 
     .footer {
@@ -296,9 +284,9 @@ textarea, input {
 
    
     .textimg {
-        width: 80vw;
+        width: 70vw;
         height: auto;
-        font-size:13px;
+        font-size:12px;
         flex-direction: column;
         justify-content: space-between;
         text-overflow: clip;
